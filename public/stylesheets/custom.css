@@ -233,7 +233,8 @@ table.microposts tr td.micropostDelete {
 }
 
 div.user_info img {
-	padding-right: 0.1em;
+	padding-right: 0.5em;
+	float: left;
 }
 
 div.user_info a {
@@ -241,7 +242,10 @@ div.user_info a {
 }
 
 div.user_info span.user_name {
-	padding: absolute;
+	display: block;
+	line-height: 0em;
+	padding-top: 10px;
+	padding-bottom: 3px;
 }
 
 div.user_info span.microposts {
